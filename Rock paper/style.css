@@ -1,0 +1,122 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+/* .dark-mode
+{
+    color: white;
+    background-color: black;
+}
+.light-mode
+{
+    color: black;
+    background-color: white;
+}
+.dark
+{
+    align-self: right;
+} */
+.heading
+{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.name
+{
+    background-color: lightblue;
+    margin-left: 30%;
+    margin-right: 35%;
+}
+.icon
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+img
+{
+    width: 250px;
+    border-radius:50%;
+    height: 250px;
+    margin: 10px;
+}
+.score
+{
+    display: flex;
+    margin: 30px;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.score1
+{
+    margin: 20px;
+}
+.score2
+{
+    margin: 20px;
+}
+.pick
+{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn
+{
+    background-color:grey;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius:10px;
+}
+.btn1
+{
+    border: none;
+    cursor: pointer;
+}
+.blue
+{
+    background-color: darkblue;
+}
+.green
+{
+    background-color: green;
+}
+.red
+{
+    background-color: red;
+}
+.normal
+{
+    background-color: grey;
+}
+#msg
+{
+    padding: 15px;
+    border-radius: 50px;
+}
+#new
+{
+    background-color: rgb(25, 198, 221);
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.clicked {
+    opacity: 0.5; /* Adjust the opacity value as needed */
+    pointer-events: none; /* Disable clicking while opacity is reduced */
+} 
+
